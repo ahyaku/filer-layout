@@ -1,0 +1,34 @@
+{
+  "name": "filer-layout",
+  "version": "0.1.0",
+  "description": "Layout for proto-filer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ahyaku/filer-layout",
+  "keywords": [
+    "Electron",
+    "proto-filer"
+  ],
+  "author": "ahyaku",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron": "^1.4.1",
+    "react": "",
+    "react-dom": "",
+    "flexboxgrid": "",
+    "babel": "",
+    "babel-core": "",
+    "babel-register": "",
+    "babel-preset-react": "",
+    "babel-preset-es2015": ""
+  },
+  "babel":{
+    "sourceMaps": "inline",
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  }
+}
